@@ -1,9 +1,11 @@
 const exp = require("express")
 const router = exp.Router()
+const {} = require("../controllers/authController")
 
-router.post("/login", () => {})
 
-router.delete("/logout", () => {})
+router.post("/login", login)
+
+router.delete("/logout", logout)
 
 
 module.export = router

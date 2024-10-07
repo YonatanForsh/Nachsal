@@ -1,11 +1,12 @@
 const exp = require("express")
 const router = exp.Router()
+const {} = require("../controllers/userController")
 
-router.post("/register", () => {})
+router.post("/register", register)
 
-router.get("/profile", () => {})
+router.get("/profile", getProfile)
 
-router.patch("/settings", () => {})
+router.patch("/settings", setSettings)
 
 
 

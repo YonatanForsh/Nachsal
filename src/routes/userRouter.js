@@ -1,6 +1,6 @@
 const exp = require("express")
 const router = exp.Router()
-const {} = require("../controllers/userController")
+const { register, getProfile, setSettings } = require("../controllers/userController")
 
 router.post("/register", register)
 

@@ -1,6 +1,6 @@
 const exp = require("express")
 const router = exp.Router()
-const {} = require("../controllers/greenEyeController")
+const { createPoll, getNotification, getPollById, reply, deletePoll } = require("../controllers/greenEyeController")
 
 
 router.post("/", createPoll)

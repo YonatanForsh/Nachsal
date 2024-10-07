@@ -43,7 +43,7 @@ const deletePoll = async (req, res) => {
 
 
 
-module.export = {
+module.exports = {
     createPoll,
     getNotification,
     getPollById,

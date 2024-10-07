@@ -24,7 +24,7 @@ const setSettings = async (req, res) => {
 }
 
 
-module.export = {
+module.exports = {
     getProfile,
     register,
     setSettings

@@ -8,6 +8,6 @@ router.post("/login", login)
 router.delete("/logout", logout)
 
 
-module.export = router
+module.exports = router
 
 

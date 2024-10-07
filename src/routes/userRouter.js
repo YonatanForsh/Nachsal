@@ -10,6 +10,6 @@ router.patch("/settings", setSettings)
 
 
 
-module.export = router
+module.exports = router
 
 

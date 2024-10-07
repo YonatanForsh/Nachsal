@@ -14,6 +14,6 @@ router.post("/reply", reply)
 router.delete("/:id", deletePoll)
 
 
-module.export = router
+module.exports = router
 
 
